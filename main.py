@@ -1,3 +1,7 @@
+import os
+
+import requests
+
 from wbmbot.utils import setup_loggers
 
 setup_loggers()
@@ -48,7 +52,19 @@ def main():
                 flat.update_details(flat_details)
                 if flat.within_range(user):
                     logger.info(f"Flat {flat.title} matches criteria... applying...")
-                    app_manager.apply(flat)
+                    if app_manager.apply(flat):
+                        token = os.getenv("TELEGRAM_BOT_TOKEN")
+                        chat_id = os.getenv("TELEGRAM_CHAT_ID")
+                        if token and chat_id:
+                            try:
+                                requests.post(
+                                    f"https://api.telegram.org/bot{token}/sendMessage",
+                                    data={"chat_id": chat_id, "text": f"Applied to a flat!\n\n{flat.title}\n{flat.zip_code}"},
+                                    timeout=10
+                                )
+                                logger.info(f"Telegram notification sent for: {flat.title}")
+                            except Exception as e:
+                                logger.warning(f"Failed to send Telegram notification: {e}")
             else:
                 logger.info(f"Flat '{flat.title}' does not meet search criteria... skipping...")
 
