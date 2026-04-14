@@ -59,7 +59,7 @@ def main():
                             try:
                                 requests.post(
                                     f"https://api.telegram.org/bot{token}/sendMessage",
-                                    data={"chat_id": chat_id, "text": f"Applied to a flat!\n\n{flat.title}\n{flat.zip_code}"},
+                                    data={"chat_id": chat_id, "text": f"{user.first_name} applied to flat {flat.title} ({flat.zip_code})"},
                                     timeout=10
                                 )
                                 logger.info(f"Telegram notification sent for: {flat.title}")
