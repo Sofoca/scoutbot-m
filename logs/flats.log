@@ -30,3 +30,19 @@ rooms: 2.0
 property attributes: bad mit wanne, balkon
 hash: 34af78532b341207de2ea4e22d06c4be541237b2a0f0c7a443996e78d39103b1
 
+2026-04-17 12:50:56,418 [INFO] flats: Application sent:
+3-Zimmer-Wohnung in Mitte
+zip code: 10115
+flat size: 66.87
+rooms: 3.0
+property attributes: bad mit wanne, abstellraum
+hash: 1fc0e2dccafc98dabfb3a156a338cc7c5422ee571ecebd606fc0fa7a44edd306
+
+2026-04-17 12:51:05,049 [INFO] flats: Application sent:
+2-Zimmer Maisonette-Wohnung in Mitte
+zip code: 10117
+flat size: 52.63
+rooms: 2.0
+property attributes: bad mit dusche, abstellraum
+hash: 67d63a630000e0f984d216641ef19ba4d8b0827b97c69e6e51e4b9396088006e
+
