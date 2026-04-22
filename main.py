@@ -57,9 +57,21 @@ def main():
                         chat_id = os.getenv("TELEGRAM_CHAT_ID")
                         if token and chat_id:
                             try:
+                                # Build notification message with fallbacks for missing data
+                                msg_parts = [
+                                    f"{user.first_name} applied to a flat! 🎉",
+                                    flat.title or "Unknown title",
+                                    f"📍 {flat.zip_code or 'N/A'} | {flat.size or 'N/A'}m² | {flat.rooms or 'N/A'} rooms",
+                                    f"💰 Total rent: {flat.total_rent or 'N/A'}€ | Base rent: {flat.base_rent or 'N/A'}€",
+                                    "🔴 WBS required" if flat.wbs else "✅ No WBS required",
+                                    f"🔗 {flat.detail_link or 'N/A'}",
+                                ]
+                                if flat.property_attrs:
+                                    msg_parts.append(f"🏠 {', '.join(flat.property_attrs)}")
+                                
                                 requests.post(
                                     f"https://api.telegram.org/bot{token}/sendMessage",
-                                    data={"chat_id": chat_id, "text": f"{user.first_name} applied to flat {flat.title} ({flat.zip_code})"},
+                                    data={"chat_id": chat_id, "text": "\n".join(msg_parts)},
                                     timeout=10
                                 )
                                 logger.info(f"Telegram notification sent for: {flat.title}")
