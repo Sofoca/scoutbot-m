@@ -86,3 +86,11 @@ rooms: 1.0
 property attributes: bad mit dusche, aufzug, neubau, offene küche, balkon
 hash: 21c282c462ed0b2235404d3450162ee50c7f3cbb1828150ee3159a1baa1a9c3f
 
+2026-04-23 17:29:21,748 [INFO] flats: Application sent:
+1-Zimmer-Wohnung in Mitte
+zip code: 10179
+flat size: 45.84
+rooms: 1.0
+property attributes: aufzug, neubau, offene küche, balkon
+hash: 0ca367acdf726be3ddaab0ce1af1a713a7c78f3ecd68559dd2215397d9bda2eb
+
