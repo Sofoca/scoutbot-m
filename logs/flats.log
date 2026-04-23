@@ -70,3 +70,11 @@ rooms: 3.0
 property attributes: bad mit dusche, bad mit fenster, balkon
 hash: 9728c08dfcce05d90e7c79fa7f0ab62e3ca73fe3a361e82277ed2c07828b120a
 
+2026-04-23 06:27:58,886 [INFO] flats: Application sent:
+2-Zimmer-Wohnung in Friedrichshain an der Weberwiese
+zip code: 10243
+flat size: 54.02
+rooms: 2.0
+property attributes: bad mit wanne, bad mit fenster
+hash: d4245b62406e1528ec98544359dafbe2d05cd8a9c31e2186820c0eed2b43979f
+
