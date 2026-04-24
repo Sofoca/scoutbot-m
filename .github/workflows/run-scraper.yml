@@ -12,6 +12,7 @@ jobs:
   run-scraper:
     runs-on: ubuntu-latest
     env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       USER_CONFIG: ${{ secrets.USER_CONFIG }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -60,6 +61,7 @@ jobs:
 
       - name: Upload logs
         uses: actions/upload-artifact@v4
+        continue-on-error: true
         with:
           name: scraper-logs
           path: logs/
