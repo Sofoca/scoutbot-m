@@ -94,3 +94,11 @@ rooms: 1.0
 property attributes: aufzug, neubau, offene küche, balkon
 hash: 0ca367acdf726be3ddaab0ce1af1a713a7c78f3ecd68559dd2215397d9bda2eb
 
+2026-04-29 05:49:40,384 [INFO] flats: Application sent:
+3-Zimmer-Wohnung in Mitte
+zip code: 10178
+flat size: 77.78
+rooms: 3.0
+property attributes: bad mit dusche, aufzug, barrierearm, balkon
+hash: 997a0a6368c447930c7fb44226035015e8d5c5413dd6c44667fb7b7cb5f65f1c
+
