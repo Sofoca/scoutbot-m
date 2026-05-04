@@ -110,3 +110,11 @@ rooms: 2.0
 property attributes: bad mit wanne, balkon
 hash: 81ebd3190035257550d944fd2e009cbd589e35152b8f9a58785dc6d3b9317aa6
 
+2026-05-04 09:50:21,538 [INFO] flats: Application sent:
+3-Zimmer-Wohnung in Mitte
+zip code: 10178
+flat size: 55.67
+rooms: 3.0
+property attributes: bad mit wanne, offene küche
+hash: ef9b881f01a9cdb72d1f1f99bd997a148a3d0490d5916a5646ec97405e58b244
+
