@@ -142,3 +142,27 @@ rooms: 1.0
 property attributes: bad mit dusche, aufzug, neubau
 hash: 71918d7d215f24266328301ffd1b0513fa35bfb16e50ed5087952e9e98014440
 
+2026-05-07 16:49:34,526 [INFO] flats: Application sent:
+1-Zimmer-Wohnung in Friedrichshain für Auszubildende und Studenten
+zip code: 10249
+flat size: 37.15
+rooms: 1.0
+property attributes: bad mit fenster, abstellraum
+hash: d0026eaf6d807300e366f78a1e48fe9213ac567b9c1e4deb961fbf4c8bade892
+
+2026-05-07 16:49:41,622 [INFO] flats: Application sent:
+1-Zimmer-Wohnung in Friedrichshain
+zip code: 10249
+flat size: 43.54
+rooms: 1.0
+property attributes: bad mit wanne, bad mit fenster, abstellraum
+hash: de38fb575a59e4812bb648e0ba396d5b59047e7877d6710ad6d5bad81730c96b
+
+2026-05-07 16:49:48,632 [INFO] flats: Application sent:
+3-Zimmer-Wohnung in Friedrichshain
+zip code: 10243
+flat size: 55.12
+rooms: 3.0
+property attributes: bad mit wanne
+hash: f4f4a220947bc652bc5e37e34b6bcbe06de4a5909463f19c599998bc30208c29
+
