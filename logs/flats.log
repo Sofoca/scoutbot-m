@@ -190,3 +190,43 @@ rooms: 2.0
 property attributes: bad mit wanne, bad mit fenster
 hash: 27c9766876a1250582c8ec8c8d76a11f370a0ee453ac8e1eb371ed794bc490a2
 
+2026-05-11 09:49:02,765 [INFO] flats: Application sent:
+3-Zimmer-Wohnung mit WBS 140
+zip code: 10117
+flat size: 74.6
+rooms: 3.0
+property attributes: bad mit wanne, aufzug, barrierearm, balkon
+hash: b0bf4c20a6e6d462d1ffa03c89c91de4d6504f7c656b308b1fb13b4aae16e1bd
+
+2026-05-11 09:49:10,962 [INFO] flats: Application sent:
+2-Zimmer-Wohnung in Friedrichshain
+zip code: 10179
+flat size: 62.79
+rooms: 2.0
+property attributes: bad mit wanne, aufzug, balkon, abstellraum
+hash: c4d3913ff65bcfcdc237cee078203ad3dd8e951c8e7142f1070ee1d39ad93773
+
+2026-05-11 09:49:19,353 [INFO] flats: Application sent:
+2-Zimmer-Wohnung in Friedrichshain
+zip code: 10243
+flat size: 60.19
+rooms: 2.0
+property attributes: bad mit wanne, aufzug
+hash: ff6cdaef0141771b71e32f6d8a51f9be13c17bdb0978556161240f4535eba61a
+
+2026-05-11 09:49:26,529 [INFO] flats: Application sent:
+2-Zimmer-Wohnung in Mitte
+zip code: 10117
+flat size: 60.9
+rooms: 2.0
+property attributes: bad mit wanne, aufzug, barrierearm
+hash: 102e0861a81d975ab6e104c3b9ed24e48a02b8a85d4dde7433d89550102048b0
+
+2026-05-11 09:49:34,135 [INFO] flats: Application sent:
+3-Zimmer-Wohnung
+zip code: 10179
+flat size: 64.56
+rooms: 3.0
+property attributes: bad mit wanne, aufzug, offene küche, barrierearm
+hash: 402be394976c6bd6eb489142ed0255d5cf1cc0653fc9bf705718202c345e07ae
+
