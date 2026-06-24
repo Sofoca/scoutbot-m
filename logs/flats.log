@@ -414,3 +414,11 @@ rooms: 2.0
 property attributes: bad mit wanne
 hash: 7ab23d1470f8dc0b7364adf44368b30759870899f8caa36183e7cd5a49a2597d
 
+2026-06-24 14:48:47,947 [INFO] flats: Application sent:
+2-Zimmer-Wohnung in Friedrichshain in Nähe vom Ostbahnhof
+zip code: 10243
+flat size: 54.21
+rooms: 2.0
+property attributes: bad mit wanne, bad mit fenster
+hash: f398320966ba96cf3a51b784bd9b76eacc536907ab26d62a16c68f6c234ad404
+
