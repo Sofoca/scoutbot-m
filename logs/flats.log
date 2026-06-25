@@ -446,3 +446,11 @@ rooms: 3.0
 property attributes: bad mit wanne, balkon, abstellraum
 hash: 51e469db26da3df95516ab61e0a893a47bf8355c427b4848a2526c2549fc594e
 
+2026-06-25 13:48:45,313 [INFO] flats: Application sent:
+Möblierte 1-Zimmer-Wohnung in Mitte
+zip code: 10179
+flat size: 26.84
+rooms: 1.0
+property attributes: bad mit dusche, aufzug, neubau, einbauküche, offene küche
+hash: 12a03f4809132b3ca64fe149e7c4d0197a430bf1cbad50ec6c32bd2d39d57580
+
