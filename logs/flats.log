@@ -582,3 +582,11 @@ rooms: 2.0
 property attributes: bad mit dusche, balkon
 hash: 4ee5a2e0fa7113a414ce0dd864a373877365c34d0016f995b8c572538b3217b2
 
+2026-07-10 08:49:42,376 [INFO] flats: Application sent:
+2-Zimmer-Wohnung in Friedrichshain
+zip code: 10243
+flat size: 56.28
+rooms: 2.0
+property attributes: bad mit dusche, aufzug, balkon
+hash: f4a0f90974c44f262c6172a173fd8956e342c246f95b4b830bbb433b615d0952
+
