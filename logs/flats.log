@@ -998,3 +998,11 @@ rooms: 3.0
 property attributes: bad mit wanne, aufzug, barrierearm, balkon
 hash: 660504f0a3523c9b5d3d19f65b0c5246e75497f94e91cc05682f26f852e71e06
 
+2026-09-02 11:22:04,598 [INFO] flats: Application sent:
+2-Zimmer-Wohnung in Mitte mit Balkon
+zip code: 10115
+flat size: 60.48
+rooms: 2.0
+property attributes: bad mit wanne, bad mit fenster, aufzug, balkon
+hash: d2533e6fe84acf23fae299d05e4b9e642cd6caae865c64c69de6e19e142e81ef
+
