@@ -1030,3 +1030,11 @@ rooms: 2.0
 property attributes: bad mit wanne, aufzug, balkon
 hash: c44107d83a35bd3d4c4b211168c828c4713670264417d7a27557a6952d92db34
 
+2026-09-08 10:28:58,785 [INFO] flats: Application sent:
+3-Zimmer-Wohnung in Mitte mit Balkon
+zip code: 10117
+flat size: 72.74
+rooms: 3.0
+property attributes: bad mit wanne, aufzug, barrierearm, balkon
+hash: fe59e3da83eec94f84a9b47c4376f6a818f6e5428f63e670c7b31c31440e2d54
+
